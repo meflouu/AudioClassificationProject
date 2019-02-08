@@ -28,6 +28,6 @@ Since the dataset is too large (8Gb), syncing it on Github would be unpractical.
 ![alt text](https://i.imgur.com/UrT6glx.png)
 
 ## Set up the environment
-1. Install Conda environment: 'conda create -n audio python=3.6 keras sklearn pandas numpy'
-2. Activate the conda environment: 'source activate audio'
-3. Install Librosa with pip: 'pip install librosa'
+1. Install Conda environment: ```conda create -n audio python=3.6 keras sklearn pandas numpy```
+2. Activate the conda environment: ```source activate audio```
+3. Install Librosa with pip: ```pip install librosa```
