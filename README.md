@@ -19,3 +19,15 @@ Urban8k dataset contains 8732 labeled sound excerpts, each of them is less than 
 8. siren
 9. street_music
 
+## Important: TODO once you sync the repo locally
+Since the dataset is too large (8Gb), syncing it on Github would be unpractical. Please do the following to get the code to work as it is:
+1. Download the UrbanDataset8K from [here](https://urbansounddataset.weebly.com/download-urbansound8k.html)
+2. Unzip the content and delete everything except the folders named fold1 up to fold10.
+3. Add all the fold[1-10] folder to a new folder with the name 'UrbanSound8K' inside the 'data' folder that is already there.
+4. The final folder structure should look like:
+![alt text](https://i.imgur.com/UrT6glx.png)
+
+## Set up the environment
+1. Install Conda environment: 'conda create -n audio python=3.6 keras sklearn pandas numpy'
+2. Activate the conda environment: 'source activate audio'
+3. Install Librosa with pip: 'pip install librosa'
