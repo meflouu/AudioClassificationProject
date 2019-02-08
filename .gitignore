@@ -2,3 +2,4 @@
 data/UrbanSound8K/
 .ipynb_checkpoints/
 ~$Report.docx
+.DS*
