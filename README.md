@@ -27,7 +27,10 @@ Since the dataset is too large (8Gb), syncing it on Github would be unpractical.
 4. The final folder structure should look like:
 ![alt text](https://i.imgur.com/UrT6glx.png)
 
-## Set up the environment
+## Set up the environment and run jupyter notebook
 1. Install Conda environment: ```conda create -n audio python=3.6 keras sklearn pandas numpy```
 2. Activate the conda environment: ```source activate audio```
 3. Install Librosa with pip: ```pip install librosa```
+4. cd inside the folder ```AudioClassificationProject``` from terminal
+5. Run Jupyter: ```jupyter-notebook```
+6. Have fun!
